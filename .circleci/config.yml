@@ -1,3 +1,6 @@
+version: 2.1
+# Define the jobs we want to run for this project
+jobs:
   # Job 1
   # Executes the bucket.yml - Deploy an S3 bucket, and interface with that bucket to synchronize the files between local and the bucket.
   # Note that the `--parameter-overrides` let you specify a value that override parameter value in the bucket.yml template file.
